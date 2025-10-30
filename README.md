@@ -1,6 +1,3 @@
----
-
-````markdown
 <div align="center">
 
 # 🌐 Baishenglai Backend  
@@ -97,7 +94,7 @@ pip install eventlet==0.36.0
 pip install django-cors-headers==4.3.1
 pip install djangorestframework-simplejwt==5.3.1
 pip install django-redis==5.4.0
-````
+```
 
 ### 开发工具依赖
 
@@ -405,8 +402,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 </div>
 ```
-
----
-
-
-是否希望我帮你配套生成一个 `README_EN.md` 独立英文文件版本（方便单独展示或 GitHub Pages 用）？
