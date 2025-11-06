@@ -12,15 +12,18 @@ Choose Language: <b>🇬🇧 English</b> ｜ [🇨🇳 中文](./README.zh.md)
 <div align="center">
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
-![Screenshot 1](./image/1.png)
-![Screenshot 2](./image/2.png)
-![Screenshot 3](./image/3.png)
-![Screenshot 4](./image/4.png)
-![Screenshot 5](./image/5.png)
-![Screenshot 6](./image/6.png)
-![Screenshot 7](./image/7.png)
-![Screenshot 8](./image/8.png)
-![Screenshot 9](./image/9.png)
+<div style="grid-column: 1 / -1; display: flex; justify-content: center;">
+  <img src="./image/1.png" style="max-width: 80%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
+<img src="./image/2.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./image/3.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./image/4.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./image/5.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./image/6.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./image/7.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./image/8.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./image/9.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
 </div>
