@@ -1,6 +1,36 @@
-# 🌐 Baishenglai Backend  
+<div align="center">
 
-A high-performance backend service framework based on Django, designed for modern web applications. It integrates Celery for async task processing, Redis caching, and JWT authentication to provide stable and reliable backend support.
+# 🌐 Baishenglai Backend  
+Choose Language: <b>🇬🇧 English</b> ｜ [🇨🇳 中文](./README.zh.md)
+
+</div>
+
+---
+
+## 🖼️ Interface Showcase
+
+<div align="center">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+
+![Screenshot 1](./image/1.png)
+![Screenshot 2](./image/2.png)
+![Screenshot 3](./image/3.png)
+![Screenshot 4](./image/4.png)
+![Screenshot 5](./image/5.png)
+![Screenshot 6](./image/6.png)
+![Screenshot 7](./image/7.png)
+![Screenshot 8](./image/8.png)
+![Screenshot 9](./image/9.png)
+
+</div>
+</div>
+
+---
+
+## 🚀 Overview
+
+**Baishenglai Backend** is a high-performance backend service framework based on Django,  
+designed for modern web applications. It integrates Celery for asynchronous task processing, Redis caching, and JWT authentication, providing a stable and reliable backend infrastructure.
 
 ![Release](https://img.shields.io/github/v/release/JohnLinabcd/baishenglai_backend)
 ![License](https://img.shields.io/github/license/JohnLinabcd/baishenglai_backend)
@@ -8,30 +38,7 @@ A high-performance backend service framework based on Django, designed for moder
 
 ---
 
-## 🌐 Language Versions
-- English (current) ｜ [中文版本](./README_zh.md)
-
----
-
-## 🖼️ Interface Showcase
-
-<div align="center">
-  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-    <img src="./image/1.png" alt="Screenshot 1">
-    <img src="./image/2.png" alt="Screenshot 2">
-    <img src="./image/3.png" alt="Screenshot 3">
-    <img src="./image/4.png" alt="Screenshot 4">
-    <img src="./image/5.png" alt="Screenshot 5">
-    <img src="./image/6.png" alt="Screenshot 6">
-    <img src="./image/7.png" alt="Screenshot 7">
-    <img src="./image/8.png" alt="Screenshot 8">
-    <img src="./image/9.png" alt="Screenshot 9">
-  </div>
-</div>
-
----
-
-## Table of Contents
+## 📑 Table of Contents
 
 * [Features](#features)
 * [System Requirements](#system-requirements)
@@ -40,43 +47,44 @@ A high-performance backend service framework based on Django, designed for moder
 * [Usage](#usage)
 * [Project Structure](#project-structure)
 * [License](#license)
+* [Contact](#contact)
 
 ---
 
-## 🚀 Core Features
+## 🚀 Features
 
 Baishenglai Backend offers a complete backend solution including:
 
-* 🔐 **JWT Authentication** – Secure user login and authorization
-* 📊 **Async Task Handling** – Powered by Celery
-* 💾 **Redis Caching** – High-performance caching solution
-* 🌐 **CORS Support** – Cross-origin configuration
-* 📈 **Database Management** – MySQL integration and optimization
-* 🛡️ **API Security** – RESTful API protection mechanisms
+- 🔐 **JWT Authentication** – Secure user login and authorization  
+- 📊 **Async Task Handling** – Powered by Celery  
+- 💾 **Redis Caching** – High-performance caching  
+- 🌐 **CORS Support** – Cross-origin configuration  
+- 📈 **Database Management** – MySQL integration and optimization  
+- 🛡️ **API Security** – RESTful API protection mechanisms  
 
 ### ⚙️ Framework Optimization
 
 Built on **Django**, Baishenglai Backend provides multiple optimizations:
 
-* 🔄 **Custom Middleware** – Faster request handling
-* 💬 **Error Handling & Logging** – Complete exception and log management
-* 🔍 **Performance Monitoring** – Integrated debugging tools
-* 🧠 **Smart Caching** – Efficient caching strategies
+- 🔄 **Custom Middleware** – Faster request handling  
+- 💬 **Error Handling & Logging** – Comprehensive exception and log management  
+- 🔍 **Performance Monitoring** – Integrated debugging tools  
+- 🧠 **Smart Caching** – Efficient caching strategies  
 
 ---
 
 ## ⚙️ System Requirements
 
 | Software | Version |
-| -------- | ------- |
-| Python   | 3.8+    |
-| Django   | 4.1+    |
-| MySQL    | 5.7+    |
-| Redis    | 6.0+    |
+| -------- | -------- |
+| Python   | 3.8+     |
+| Django   | 4.1+     |
+| MySQL    | 5.7+     |
+| Redis    | 6.0+     |
 
 ---
 
-## 🛠️ Dependency Installation
+## 🛠️ Dependencies
 
 ### Core Dependencies
 
@@ -90,18 +98,21 @@ pip install djangorestframework-simplejwt==5.3.1
 pip install django-redis==5.4.0
 Development Tools
 bash
+复制代码
 pip install djangorestframework==3.14.0
 pip install django-filter==23.3
 pip install drf-yasg==1.21.7
 pip install python-decouple==3.8
 Additional Tools
 bash
+复制代码
 pip install pillow==10.0.1
 pip install requests==2.31.0
 pip install beautifulsoup4==4.12.2
 pip install lxml==4.9.3
 🚀 Quick Start
 bash
+复制代码
 # Clone the project
 git clone https://github.com/JohnLinabcd/baishenglai_backend.git
 cd baishenglai_backend
@@ -124,6 +135,7 @@ python manage.py createsuperuser
 python manage.py runserver
 Run Celery Worker
 bash
+复制代码
 celery -A config worker --loglevel=info
 📈 Usage
 Baishenglai Backend provides complete RESTful APIs for authentication, user management, and task processing.
@@ -137,7 +149,8 @@ Main API Endpoints:
 /api/tasks/ – Task management
 
 📁 Project Structure
-text
+bash
+复制代码
 baishenglai_backend/
 ├── algorithm/              # Algorithm module
 ├── api/                    # API interfaces
@@ -161,4 +174,7 @@ Project Homepage: https://github.com/JohnLinabcd/baishenglai_backend
 
 Report Issues: GitHub Issues
 
-<div align="center"> <strong>If this project helps you, please give it a ⭐️!</strong> </div> ```
+<div align="center">
+If this project helps you, please give it a ⭐️!
+
+</div> ```
