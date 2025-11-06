@@ -1,5 +1,3 @@
-
-```
 # 🌐 Baishenglai Backend  
 
 A high-performance backend service framework based on Django, designed for modern web applications. It integrates Celery for async task processing, Redis caching, and JWT authentication to provide stable and reliable backend support.
@@ -90,31 +88,20 @@ pip install eventlet==0.36.0
 pip install django-cors-headers==4.3.1
 pip install djangorestframework-simplejwt==5.3.1
 pip install django-redis==5.4.0
-```
-
-### Development Tools
-
-```bash
+Development Tools
+bash
 pip install djangorestframework==3.14.0
 pip install django-filter==23.3
 pip install drf-yasg==1.21.7
 pip install python-decouple==3.8
-```
-
-### Additional Tools
-
-```bash
+Additional Tools
+bash
 pip install pillow==10.0.1
 pip install requests==2.31.0
 pip install beautifulsoup4==4.12.2
 pip install lxml==4.9.3
-```
-
----
-
-## 🚀 Quick Start
-
-```bash
+🚀 Quick Start
+bash
 # Clone the project
 git clone https://github.com/JohnLinabcd/baishenglai_backend.git
 cd baishenglai_backend
@@ -135,31 +122,22 @@ python manage.py createsuperuser
 
 # Run development server
 python manage.py runserver
-```
-
-### Run Celery Worker
-
-```bash
+Run Celery Worker
+bash
 celery -A config worker --loglevel=info
-```
-
----
-
-## 📈 Usage
-
+📈 Usage
 Baishenglai Backend provides complete RESTful APIs for authentication, user management, and task processing.
 
 Main API Endpoints:
 
-* `/api/auth/` – Authentication
-* `/api/users/` – User management
-* `/api/tasks/` – Task management
+/api/auth/ – Authentication
 
----
+/api/users/ – User management
 
-## 📁 Project Structure
+/api/tasks/ – Task management
 
-```
+📁 Project Structure
+text
 baishenglai_backend/
 ├── algorithm/              # Algorithm module
 ├── api/                    # API interfaces
@@ -175,26 +153,12 @@ baishenglai_backend/
 ├── uwsgi.ini               # uWSGI configuration
 ├── requirements.txt        # Dependencies
 └── README.md               # Project documentation
-```
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
----
+📞 Contact
+Project Homepage: https://github.com/JohnLinabcd/baishenglai_backend
 
-## 📄 License
+Report Issues: GitHub Issues
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 Contact
-
-* **Project Homepage:** [https://github.com/JohnLinabcd/baishenglai_backend](https://github.com/JohnLinabcd/baishenglai_backend)
-* **Report Issues:** [GitHub Issues](https://github.com/JohnLinabcd/baishenglai_backend/issues)
-
----
-
-<div align="center">
-  <strong>If this project helps you, please give it a ⭐️!</strong>
-</div>
-```
-
-
+<div align="center"> <strong>If this project helps you, please give it a ⭐️!</strong> </div> ```
