@@ -10,22 +10,28 @@ Choose Language: <b>🇬🇧 English</b> ｜ [🇨🇳 中文](./README.zh.md)
 ## 🖼️ Interface Showcase
 
 <div align="center">
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
-<div style="grid-column: 1 / -1; display: flex; justify-content: center;">
-  <img src="./image/1.png" style="max-width: 80%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</div>
+![Screenshot 1](./image/1.png)
 
-<img src="./image/2.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="./image/3.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="./image/4.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="./image/5.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="./image/6.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="./image/7.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="./image/8.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="./image/9.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<table>
+<tr>
+<td><img src="./image/2.png"></td>
+<td><img src="./image/3.png"></td>
+</tr>
+<tr>
+<td><img src="./image/4.png"></td>
+<td><img src="./image/5.png"></td>
+</tr>
+<tr>
+<td><img src="./image/6.png"></td>
+<td><img src="./image/7.png"></td>
+</tr>
+<tr>
+<td><img src="./image/8.png"></td>
+<td><img src="./image/9.png"></td>
+</tr>
+</table>
 
-</div>
 </div>
 
 ---
