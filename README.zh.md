@@ -10,19 +10,28 @@
 ## 🖼️ 界面展示
 
 <div align="center">
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
-![界面截图1](./image/1.png)
-![界面截图2](./image/2.png)
-![界面截图3](./image/3.png)
-![界面截图4](./image/4.png)
-![界面截图5](./image/5.png)
-![界面截图6](./image/6.png)
-![界面截图7](./image/7.png)
-![界面截图8](./image/8.png)
-![界面截图9](./image/9.png)
+![Screenshot 1](./image/1.png)
 
-</div>
+<table>
+<tr>
+<td><img src="./image/2.png"></td>
+<td><img src="./image/3.png"></td>
+</tr>
+<tr>
+<td><img src="./image/4.png"></td>
+<td><img src="./image/5.png"></td>
+</tr>
+<tr>
+<td><img src="./image/6.png"></td>
+<td><img src="./image/7.png"></td>
+</tr>
+<tr>
+<td><img src="./image/8.png"></td>
+<td><img src="./image/9.png"></td>
+</tr>
+</table>
+
 </div>
 
 ---
