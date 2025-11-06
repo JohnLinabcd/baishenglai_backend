@@ -11,24 +11,24 @@ Choose Language: <b>🇬🇧 English</b> ｜ [🇨🇳 中文](./README.zh.md)
 
 <div align="center">
 
-![Screenshot 1](./image/1.png)
+![Screenshot 1](./image/10.png)
 
 <table>
 <tr>
-<td><img src="./image/2.png"></td>
-<td><img src="./image/3.png"></td>
+<td><img src="./image/11.png"></td>
+<td><img src="./image/12.png"></td>
 </tr>
 <tr>
-<td><img src="./image/4.png"></td>
-<td><img src="./image/5.png"></td>
+<td><img src="./image/13.png"></td>
+<td><img src="./image/14.png"></td>
 </tr>
 <tr>
-<td><img src="./image/6.png"></td>
-<td><img src="./image/7.png"></td>
+<td><img src="./image/15.png"></td>
+<td><img src="./image/16.png"></td>
 </tr>
 <tr>
-<td><img src="./image/8.png"></td>
-<td><img src="./image/9.png"></td>
+<td><img src="./image/17.png"></td>
+<td><img src="./image/18.png"></td>
 </tr>
 </table>
 
